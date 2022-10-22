@@ -22,18 +22,18 @@ export default class Layout extends Component {
                         />
                         <div className="collapse navbar-collapse" id="collapsibleNavId">
                             <ul className="navbar-nav me-auto mt-2 mt-lg-0">
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <NavLink className="nav-link" to="/form" aria-current="page">
+                                        Bài Tập Form
+                                    </NavLink>
+                                </li> */}
+                                <li className="nav-item">
+                                    <NavLink className="nav-link" to="/baitapform" aria-current="page">
                                         Bài Tập Form
                                     </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/baitapform" aria-current="page">
-                                        Bài Tập Form rfc
-                                    </NavLink>
-                                </li>
-                                <li className="nav-item">
-                                    <NavLink className="nav-link" to="/datve">
+                                    <NavLink className="nav-link" to="/bookingticket">
                                         Bài tập Đặt Vé
                                     </NavLink>
                                 </li>

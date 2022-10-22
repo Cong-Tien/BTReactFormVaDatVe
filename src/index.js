@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { Provider } from 'react-redux';
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import BaiTapForm from './Pages/BaiTapForm';
-import DatVe from './Pages/DatVe';
+import BookingTicket from './Pages/BookingTicket/BookingTicket';
 import Form from './Pages/Form';
 import Layout from './Pages/Layout';
 import { store } from './redux/ConfigStore';
@@ -17,7 +17,7 @@ root.render(
     <Route index element={<Form/>}></Route>
       <Route path='form' element={<Form/>}></Route>
       <Route path='baitapform' element={<BaiTapForm/>}></Route>
-      <Route path='datve' element={<DatVe/>}></Route>
+      <Route path='bookingticket' element={<BookingTicket/>}></Route>
     </Route>
     </Routes>
   </BrowserRouter>
